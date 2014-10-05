@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3982E218F2441C0094FD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E118F2441C0094FD78 /* Foundation.framework */; };
+		6C3982E418F2441C0094FD78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E318F2441C0094FD78 /* CoreGraphics.framework */; };
+		6C3982E618F2441C0094FD78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E518F2441C0094FD78 /* UIKit.framework */; };
+		6C3982E818F2441C0094FD78 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E718F2441C0094FD78 /* CoreData.framework */; };
+		6C3982EE18F2441C0094FD78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C3982EC18F2441C0094FD78 /* InfoPlist.strings */; };
+		6C3982F018F2441C0094FD78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3982EF18F2441C0094FD78 /* main.m */; };
+		6C3982F418F2441C0094FD78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3982F318F2441C0094FD78 /* AppDelegate.m */; };
+		6C3982F718F2441C0094FD78 /* CollegeManagementSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C3982F518F2441C0094FD78 /* CollegeManagementSystem.xcdatamodeld */; };
+		6C3982F918F2441C0094FD78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C3982F818F2441C0094FD78 /* Images.xcassets */; };
+		6C39830018F2441C0094FD78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982FF18F2441C0094FD78 /* XCTest.framework */; };
+		6C39830118F2441C0094FD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E118F2441C0094FD78 /* Foundation.framework */; };
+		6C39830218F2441C0094FD78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E518F2441C0094FD78 /* UIKit.framework */; };
+		6C39830318F2441C0094FD78 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3982E718F2441C0094FD78 /* CoreData.framework */; };
+		6C39830B18F2441C0094FD78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C39830918F2441C0094FD78 /* InfoPlist.strings */; };
+		6C39830D18F2441C0094FD78 /* CollegeManagementSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39830C18F2441C0094FD78 /* CollegeManagementSystemTests.m */; };
+		6C39831818F24F000094FD78 /* CollegeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39831718F24F000094FD78 /* CollegeManager.m */; };
+		6C39831A18F24FE00094FD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C39831918F24FE00094FD78 /* Main.storyboard */; };
+		6C39831D18F2528F0094FD78 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39831C18F2528F0094FD78 /* MainViewController.m */; };
+		6C39832018F253AF0094FD78 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39831F18F253AF0094FD78 /* Teacher.m */; };
+		6C39832318F253B00094FD78 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39832218F253B00094FD78 /* Course.m */; };
+		6C39832618F253B00094FD78 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39832518F253B00094FD78 /* MyClass.m */; };
+		6C39832918F253B00094FD78 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39832818F253B00094FD78 /* Student.m */; };
+		6C39832D18F2CC310094FD78 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39832C18F2CC310094FD78 /* CourseViewController.m */; };
+		6C39833018F2D1020094FD78 /* CourseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39832F18F2D1020094FD78 /* CourseDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C39830418F2441C0094FD78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C3982D618F2441C0094FD78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C3982DD18F2441C0094FD78;
+			remoteInfo = CollegeManagementSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C3982DE18F2441C0094FD78 /* CollegeManagementSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeManagementSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3982E118F2441C0094FD78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C3982E318F2441C0094FD78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C3982E518F2441C0094FD78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C3982E718F2441C0094FD78 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C3982EB18F2441C0094FD78 /* CollegeManagementSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollegeManagementSystem-Info.plist"; sourceTree = "<group>"; };
+		6C3982ED18F2441C0094FD78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C3982EF18F2441C0094FD78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C3982F118F2441C0094FD78 /* CollegeManagementSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollegeManagementSystem-Prefix.pch"; sourceTree = "<group>"; };
+		6C3982F218F2441C0094FD78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C3982F318F2441C0094FD78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C3982F618F2441C0094FD78 /* CollegeManagementSystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollegeManagementSystem.xcdatamodel; sourceTree = "<group>"; };
+		6C3982F818F2441C0094FD78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C3982FE18F2441C0094FD78 /* CollegeManagementSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeManagementSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3982FF18F2441C0094FD78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C39830818F2441C0094FD78 /* CollegeManagementSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollegeManagementSystemTests-Info.plist"; sourceTree = "<group>"; };
+		6C39830A18F2441C0094FD78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C39830C18F2441C0094FD78 /* CollegeManagementSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollegeManagementSystemTests.m; sourceTree = "<group>"; };
+		6C39831618F24F000094FD78 /* CollegeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeManager.h; sourceTree = "<group>"; };
+		6C39831718F24F000094FD78 /* CollegeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeManager.m; sourceTree = "<group>"; };
+		6C39831918F24FE00094FD78 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6C39831B18F2528F0094FD78 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6C39831C18F2528F0094FD78 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6C39831E18F253AF0094FD78 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		6C39831F18F253AF0094FD78 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		6C39832118F253B00094FD78 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		6C39832218F253B00094FD78 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		6C39832418F253B00094FD78 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		6C39832518F253B00094FD78 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		6C39832718F253B00094FD78 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		6C39832818F253B00094FD78 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		6C39832B18F2CC310094FD78 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		6C39832C18F2CC310094FD78 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		6C39832E18F2D1020094FD78 /* CourseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetailViewController.h; sourceTree = "<group>"; };
+		6C39832F18F2D1020094FD78 /* CourseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C3982DB18F2441C0094FD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3982E418F2441C0094FD78 /* CoreGraphics.framework in Frameworks */,
+				6C3982E818F2441C0094FD78 /* CoreData.framework in Frameworks */,
+				6C3982E618F2441C0094FD78 /* UIKit.framework in Frameworks */,
+				6C3982E218F2441C0094FD78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3982FB18F2441C0094FD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39830018F2441C0094FD78 /* XCTest.framework in Frameworks */,
+				6C39830318F2441C0094FD78 /* CoreData.framework in Frameworks */,
+				6C39830218F2441C0094FD78 /* UIKit.framework in Frameworks */,
+				6C39830118F2441C0094FD78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C3982D518F2441C0094FD78 = {
+			isa = PBXGroup;
+			children = (
+				6C3982E918F2441C0094FD78 /* CollegeManagementSystem */,
+				6C39830618F2441C0094FD78 /* CollegeManagementSystemTests */,
+				6C3982E018F2441C0094FD78 /* Frameworks */,
+				6C3982DF18F2441C0094FD78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C3982DF18F2441C0094FD78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C3982DE18F2441C0094FD78 /* CollegeManagementSystem.app */,
+				6C3982FE18F2441C0094FD78 /* CollegeManagementSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C3982E018F2441C0094FD78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3982E118F2441C0094FD78 /* Foundation.framework */,
+				6C3982E318F2441C0094FD78 /* CoreGraphics.framework */,
+				6C3982E518F2441C0094FD78 /* UIKit.framework */,
+				6C3982E718F2441C0094FD78 /* CoreData.framework */,
+				6C3982FF18F2441C0094FD78 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C3982E918F2441C0094FD78 /* CollegeManagementSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6C39832A18F253B60094FD78 /* ManagedObjects */,
+				6C3982F218F2441C0094FD78 /* AppDelegate.h */,
+				6C3982F318F2441C0094FD78 /* AppDelegate.m */,
+				6C3982F818F2441C0094FD78 /* Images.xcassets */,
+				6C3982F518F2441C0094FD78 /* CollegeManagementSystem.xcdatamodeld */,
+				6C3982EA18F2441C0094FD78 /* Supporting Files */,
+				6C39831618F24F000094FD78 /* CollegeManager.h */,
+				6C39831718F24F000094FD78 /* CollegeManager.m */,
+				6C39831918F24FE00094FD78 /* Main.storyboard */,
+				6C39832E18F2D1020094FD78 /* CourseDetailViewController.h */,
+				6C39832F18F2D1020094FD78 /* CourseDetailViewController.m */,
+				6C39831B18F2528F0094FD78 /* MainViewController.h */,
+				6C39831C18F2528F0094FD78 /* MainViewController.m */,
+				6C39832B18F2CC310094FD78 /* CourseViewController.h */,
+				6C39832C18F2CC310094FD78 /* CourseViewController.m */,
+			);
+			path = CollegeManagementSystem;
+			sourceTree = "<group>";
+		};
+		6C3982EA18F2441C0094FD78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C3982EB18F2441C0094FD78 /* CollegeManagementSystem-Info.plist */,
+				6C3982EC18F2441C0094FD78 /* InfoPlist.strings */,
+				6C3982EF18F2441C0094FD78 /* main.m */,
+				6C3982F118F2441C0094FD78 /* CollegeManagementSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C39830618F2441C0094FD78 /* CollegeManagementSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C39830C18F2441C0094FD78 /* CollegeManagementSystemTests.m */,
+				6C39830718F2441C0094FD78 /* Supporting Files */,
+			);
+			path = CollegeManagementSystemTests;
+			sourceTree = "<group>";
+		};
+		6C39830718F2441C0094FD78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C39830818F2441C0094FD78 /* CollegeManagementSystemTests-Info.plist */,
+				6C39830918F2441C0094FD78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C39832A18F253B60094FD78 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6C39832718F253B00094FD78 /* Student.h */,
+				6C39832818F253B00094FD78 /* Student.m */,
+				6C39832418F253B00094FD78 /* MyClass.h */,
+				6C39832518F253B00094FD78 /* MyClass.m */,
+				6C39832118F253B00094FD78 /* Course.h */,
+				6C39832218F253B00094FD78 /* Course.m */,
+				6C39831E18F253AF0094FD78 /* Teacher.h */,
+				6C39831F18F253AF0094FD78 /* Teacher.m */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C3982DD18F2441C0094FD78 /* CollegeManagementSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C39831018F2441C0094FD78 /* Build configuration list for PBXNativeTarget "CollegeManagementSystem" */;
+			buildPhases = (
+				6C3982DA18F2441C0094FD78 /* Sources */,
+				6C3982DB18F2441C0094FD78 /* Frameworks */,
+				6C3982DC18F2441C0094FD78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeManagementSystem;
+			productName = CollegeManagementSystem;
+			productReference = 6C3982DE18F2441C0094FD78 /* CollegeManagementSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C3982FD18F2441C0094FD78 /* CollegeManagementSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C39831318F2441C0094FD78 /* Build configuration list for PBXNativeTarget "CollegeManagementSystemTests" */;
+			buildPhases = (
+				6C3982FA18F2441C0094FD78 /* Sources */,
+				6C3982FB18F2441C0094FD78 /* Frameworks */,
+				6C3982FC18F2441C0094FD78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C39830518F2441C0094FD78 /* PBXTargetDependency */,
+			);
+			name = CollegeManagementSystemTests;
+			productName = CollegeManagementSystemTests;
+			productReference = 6C3982FE18F2441C0094FD78 /* CollegeManagementSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C3982D618F2441C0094FD78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = guogangj;
+				TargetAttributes = {
+					6C3982FD18F2441C0094FD78 = {
+						TestTargetID = 6C3982DD18F2441C0094FD78;
+					};
+				};
+			};
+			buildConfigurationList = 6C3982D918F2441C0094FD78 /* Build configuration list for PBXProject "CollegeManagementSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C3982D518F2441C0094FD78;
+			productRefGroup = 6C3982DF18F2441C0094FD78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C3982DD18F2441C0094FD78 /* CollegeManagementSystem */,
+				6C3982FD18F2441C0094FD78 /* CollegeManagementSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C3982DC18F2441C0094FD78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39831A18F24FE00094FD78 /* Main.storyboard in Resources */,
+				6C3982EE18F2441C0094FD78 /* InfoPlist.strings in Resources */,
+				6C3982F918F2441C0094FD78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3982FC18F2441C0094FD78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39830B18F2441C0094FD78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C3982DA18F2441C0094FD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39832618F253B00094FD78 /* MyClass.m in Sources */,
+				6C39833018F2D1020094FD78 /* CourseDetailViewController.m in Sources */,
+				6C39832318F253B00094FD78 /* Course.m in Sources */,
+				6C39832018F253AF0094FD78 /* Teacher.m in Sources */,
+				6C39831818F24F000094FD78 /* CollegeManager.m in Sources */,
+				6C3982F718F2441C0094FD78 /* CollegeManagementSystem.xcdatamodeld in Sources */,
+				6C3982F418F2441C0094FD78 /* AppDelegate.m in Sources */,
+				6C39831D18F2528F0094FD78 /* MainViewController.m in Sources */,
+				6C3982F018F2441C0094FD78 /* main.m in Sources */,
+				6C39832918F253B00094FD78 /* Student.m in Sources */,
+				6C39832D18F2CC310094FD78 /* CourseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C3982FA18F2441C0094FD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39830D18F2441C0094FD78 /* CollegeManagementSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C39830518F2441C0094FD78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C3982DD18F2441C0094FD78 /* CollegeManagementSystem */;
+			targetProxy = 6C39830418F2441C0094FD78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C3982EC18F2441C0094FD78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C3982ED18F2441C0094FD78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C39830918F2441C0094FD78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C39830A18F2441C0094FD78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C39830E18F2441C0094FD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C39830F18F2441C0094FD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C39831118F2441C0094FD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeManagementSystem/CollegeManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "CollegeManagementSystem/CollegeManagementSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C39831218F2441C0094FD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeManagementSystem/CollegeManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "CollegeManagementSystem/CollegeManagementSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C39831418F2441C0094FD78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollegeManagementSystem.app/CollegeManagementSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeManagementSystem/CollegeManagementSystem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CollegeManagementSystemTests/CollegeManagementSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C39831518F2441C0094FD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CollegeManagementSystem.app/CollegeManagementSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollegeManagementSystem/CollegeManagementSystem-Prefix.pch";
+				INFOPLIST_FILE = "CollegeManagementSystemTests/CollegeManagementSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C3982D918F2441C0094FD78 /* Build configuration list for PBXProject "CollegeManagementSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39830E18F2441C0094FD78 /* Debug */,
+				6C39830F18F2441C0094FD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C39831018F2441C0094FD78 /* Build configuration list for PBXNativeTarget "CollegeManagementSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39831118F2441C0094FD78 /* Debug */,
+				6C39831218F2441C0094FD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C39831318F2441C0094FD78 /* Build configuration list for PBXNativeTarget "CollegeManagementSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39831418F2441C0094FD78 /* Debug */,
+				6C39831518F2441C0094FD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C3982F518F2441C0094FD78 /* CollegeManagementSystem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C3982F618F2441C0094FD78 /* CollegeManagementSystem.xcdatamodel */,
+			);
+			currentVersion = 6C3982F618F2441C0094FD78 /* CollegeManagementSystem.xcdatamodel */;
+			path = CollegeManagementSystem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C3982D618F2441C0094FD78 /* Project object */;
+}

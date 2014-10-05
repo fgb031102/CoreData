@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="GcJ-L1-osI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller - CoreData测试-->
+        <scene sceneID="pvF-3X-XY6">
+            <objects>
+                <viewController id="h79-VR-vFK" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LGa-2E-9Y0"/>
+                        <viewControllerLayoutGuide type="bottom" id="0hl-1s-5Jb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lD4-vu-Hhs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfT-MP-lRL">
+                                <rect key="frame" x="20" y="20" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="1,加数据">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onInitData:" destination="h79-VR-vFK" eventType="touchUpInside" id="1hX-UN-Zv7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SQ-rj-ZH1">
+                                <rect key="frame" x="20" y="50" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="2,查询所有学生">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onFetchAllStudents:" destination="h79-VR-vFK" eventType="touchUpInside" id="ikV-YN-9Lf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7W-7X-nfN">
+                                <rect key="frame" x="20" y="80" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="3,查询班级">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onFetchClasses:" destination="h79-VR-vFK" eventType="touchUpInside" id="O9a-YK-rQj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZu-E2-tYM">
+                                <rect key="frame" x="20" y="110" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="4,更新">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onUpdateTest:" destination="h79-VR-vFK" eventType="touchUpInside" id="UZO-Mh-afZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weK-ql-uSS">
+                                <rect key="frame" x="20" y="140" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="5,删除">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onDeleteTest:" destination="h79-VR-vFK" eventType="touchUpInside" id="GCg-NG-i4F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgZ-CO-AUm">
+                                <rect key="frame" x="20" y="170" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="6,简单统计">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onCountTest:" destination="h79-VR-vFK" eventType="touchUpInside" id="Zrq-Ay-Wei"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erw-wv-ge5">
+                                <rect key="frame" x="20" y="200" width="82" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="7,简单统计2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onMaxTest:" destination="h79-VR-vFK" eventType="touchUpInside" id="zTU-QT-4Gb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CF9-ex-LmB">
+                                <rect key="frame" x="20" y="230" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="8,连表统计">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onCountCourseTest:" destination="h79-VR-vFK" eventType="touchUpInside" id="NaJ-6b-IQm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA7-Os-KYd">
+                                <rect key="frame" x="20" y="258" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="9,获取ID">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onGetId:" destination="h79-VR-vFK" eventType="touchUpInside" id="CYF-AG-DWe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CoreData测试" image="CoreData" id="J91-xa-GVV"/>
+                    <navigationItem key="navigationItem" title="CoreData测试" id="log-60-gdX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fjz-KK-CSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="-272"/>
+        </scene>
+        <!--Course View Controller - 课程列表-->
+        <scene sceneID="gkI-ep-g66">
+            <objects>
+                <tableViewController id="6qj-me-Qbj" customClass="CourseViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="E3R-9A-5yg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="8xf-Sg-3mL" style="IBUITableViewCellStyleDefault" id="Bb1-vF-YZz">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bb1-vF-YZz" id="rMf-4Y-7eG">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8xf-Sg-3mL">
+                                            <rect key="frame" x="15" y="0.0" width="270" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="IbT-mL-u6z" kind="push" identifier="Edit" id="1OO-2L-T3n"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6qj-me-Qbj" id="VNZ-SH-GIu"/>
+                            <outlet property="delegate" destination="6qj-me-Qbj" id="Wg4-mp-jnV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="课程列表" id="Fg4-V8-0TI">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Q3Z-uk-vhr">
+                            <connections>
+                                <segue destination="IbT-mL-u6z" kind="push" identifier="Add" id="UZg-D3-Z3r"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMV-z9-9pg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2118" y="402"/>
+        </scene>
+        <!--Course Detail View Controller - 新增/编辑-->
+        <scene sceneID="fYl-2Z-TpX">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="IbT-mL-u6z" customClass="CourseDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dTA-yB-LCa"/>
+                        <viewControllerLayoutGuide type="bottom" id="WjD-JG-Ns6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TUc-Rq-nJy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="课程名称" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vo2-On-5pr">
+                                <rect key="frame" x="20" y="72" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vo2-On-5pr" secondAttribute="trailing" constant="20" symbolic="YES" id="2vk-Iz-iZ8"/>
+                            <constraint firstItem="vo2-On-5pr" firstAttribute="top" secondItem="dTA-yB-LCa" secondAttribute="bottom" constant="20" symbolic="YES" id="gQT-YI-Fld"/>
+                            <constraint firstItem="vo2-On-5pr" firstAttribute="leading" secondItem="TUc-Rq-nJy" secondAttribute="leading" constant="20" symbolic="YES" id="kpw-pO-VNG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="新增/编辑" id="ZgM-1A-Wb9">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="AuC-EM-XVF">
+                            <connections>
+                                <action selector="onSave:" destination="IbT-mL-u6z" id="AWa-IA-1yE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textfieldName" destination="vo2-On-5pr" id="Zh1-Yd-N16"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wYa-ex-am7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2545" y="402"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Rar-We-Ccp">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="GcJ-L1-osI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cqa-c3-sqY">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="h79-VR-vFK" kind="relationship" relationship="viewControllers" id="gCB-yi-yPd"/>
+                        <segue destination="T3X-F4-NSt" kind="relationship" relationship="viewControllers" id="Tk8-Eh-dFB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C1Z-dn-6bO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="128"/>
+        </scene>
+        <!--Navigation Controller - NSFetchedResultController-->
+        <scene sceneID="gF0-pG-3BW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T3X-F4-NSt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="NSFetchedResultController" image="NSFetchedResultController" id="4Ld-jg-0hu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3G5-9I-Jdn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6qj-me-Qbj" kind="relationship" relationship="rootViewController" id="nnJ-VX-aQZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YrP-Ks-8O6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592" y="402"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CoreData" width="30" height="30"/>
+        <image name="NSFetchedResultController" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="1OO-2L-T3n"/>
+    </inferredMetricsTieBreakers>
+</document>
